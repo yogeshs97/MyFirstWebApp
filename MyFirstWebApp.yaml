@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myfirstwebapprepos
-        image: MyFirstWebAppCR.azurecr.io/dnrepos:latest
+        image: MyFirstWebAppCR1.azurecr.io/dnrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
